@@ -13,8 +13,8 @@ import matplotlib.pyplot as plt
 from mpl_toolkits.mplot3d import Axes3D
 
 # Paths you need to put in.
-MODELS_PATH = "/absolute/path/to/models/folder/1823_models"
-EXP_INFO_PATH = "/absolute/path/to/log/file/1823.log"
+MODELS_PATH = "/jahanxbProject/DataPoisoning_FL/models/folder/1823_models"
+EXP_INFO_PATH = "/jahanxbProject/DataPoisoning_FL/log/file/1823.log"
 
 # The epochs over which you are calculating gradients.
 EPOCHS = list(range(10, 200))
